@@ -1,8 +1,19 @@
 #product .wrap{
 
 }
+#product .wrap [data-aos="fade-right"] {
+  transform: translate3d(-50px,0,0);
+}
+#product .wrap .aos-animate {
+  transform: translateZ(0);
+}
+#product .wrap ul.list li h3 [data-aos="fade-left"] {
+  transform: translate3d(50px,0,0);
+}
+#product .wrap ul.list li p .aos-animate {
+  transform: translateZ(0);
+}
 #product .wrap h2{
-
   margin-bottom: 20px;
 }
 #product ul.list{
